@@ -81,7 +81,7 @@
   <project path="system/netd" name="android_system_netd" remote="stag" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
   <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
-  <project path="vendor/stag" name="android_vendor_stag" remote="stag" />
+  <project path="vendor/mosquito" name="MosqitoAndroid/android_vendor_mosquito" remote="github" />
 
   <!-- Legacy AOSP -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
