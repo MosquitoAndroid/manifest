@@ -7,6 +7,10 @@
   <remote name="github"
            fetch="https://github.com/" />
 
+  <remote  name="mosquito"
+           revision="s12.1"
+           fetch="https://github.com/MosquitoAndroid/"  />
+
   <remote  name="stag"
            revision="s12.1"
            fetch="https://github.com/StagOS/"  />
@@ -81,7 +85,7 @@
   <project path="system/netd" name="android_system_netd" remote="stag" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="stag" />
   <project path="system/update_engine" name="android_system_update_engine" remote="stag" />
-  <project path="vendor/mosquito" name="MosquitoAndroid/android_vendor_mosquito" remote="github" />
+  <project path="vendor/mosquito" name="android_vendor_mosquito" remote="mosquito" />
 
   <!-- Legacy AOSP -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
