@@ -1,4 +1,5 @@
-[<center><img src="https://i.pinimg.com/736x/8d/3d/04/8d3d049e47b6816f64ba2043782ae285.jpg" height="100%" width="100%;"/></center>](https://github.com/StagOS)
+# Mosquito Android
+Kali Nethunter Distribution
 
 ---------------
 Getting started
@@ -9,9 +10,9 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 you'll also need to get
 familiar with [Establishing a build environment](http://source.android.com/source/initializing.html).
 
-To initialize your local repository using the StagOS sources, use a command like this:
+To initialize your local repository using the Mosquito sources, use a command like this:
 ```
-repo init -u https://github.com/StagOS/manifest.git -b s12.1
+repo init -u https://github.com/MosquitoAndroid/manifest.git -b s12.1
 ```
 Then to sync up:
 ```
@@ -32,7 +33,7 @@ Building for your device [Compiler Friendly]
 1) Make sure you've synced all your device specific sources
 2) copy your device code from (lineage.mk/whatever.mk) to stag_devicename.mk
 3) do the necessary changes in your trees
-4) include vendor/stag/main.mk (no common.mk or common_full*)
+4) include vendor/mosquito/main.mk (no common.mk or common_full*)
 5) Dont forget to set PRODUCT_DEVICE = devicename
 6) Now you're all set to build. Follow the below commands 
 
