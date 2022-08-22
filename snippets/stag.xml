@@ -98,7 +98,4 @@
 
   <!-- repainter -->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
-
-  <!-- extendrom -->
-  <project path="vendor/extendrom" name="android_vendor_extendrom" remote="mosquito" revision="main" />
 </manifest>
